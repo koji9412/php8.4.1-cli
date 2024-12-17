@@ -2,5 +2,5 @@ services:
   php:
     image: php:8.4.1-cli
     volumes:
-      - .:/usr/src/app
+      - ./php:/usr/src/app
     working_dir: /usr/src/app
